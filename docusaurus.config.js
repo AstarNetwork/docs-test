@@ -70,7 +70,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Astar Docs",
+        title: "Docs",
         logo: {
           alt: "Astar",
           src: "img/astar-logo.svg",
@@ -83,34 +83,17 @@ const config = {
             label: "Docs",
           },
           {
-            type: "doc",
-            docId: "build/index",
-            position: "left",
-            label: "Start Building",
-          },
-          {
-            type: "doc",
-            docId: "build/zkEVM/quickstart",
-            position: "left",
-            label: "zkEVM",
-          },
-          {
-            to: "https://medium.com/astar-network",
-            label: "Medium",
+            to: "https://",
+            label: "Website",
             position: "left",
           },
           {
-            to: "https://www.youtube.com/channel/UC36JgEF6gqatVSK9xlzzrvQ",
-            label: "Youtube",
+            to: "https://portal.astar.network/",
+            label: "Portal",
             position: "left",
           },
           {
             type: "localeDropdown",
-            position: "right",
-          },
-          {
-            href: "https://github.com/AstarNetwork/astar-docs",
-            label: "GitHub",
             position: "right",
           },
         ],
