@@ -9,7 +9,8 @@ const katex = require("rehype-katex");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Astar Docs",
-  tagline: "A comprehensive library of useful information about Astar Network",
+  tagline:
+    "Welcome! Here you will find documentation on how to develop dApps on Astar. Something like this",
   url: "https://docs.astar.network",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -101,48 +102,121 @@ const config = {
       footer: {
         style: "light",
         links: [
+          // {
+          //   html: ""
+          // },
           {
-            title: "Docs",
+            title: "Solutions",
             items: [
               {
-                label: "Get Started",
-                to: "/docs/getting-started",
+                label: "Solutions",
+                href: "https://portal.astar.network/astar-zkevm",
+              },
+              {
+                label: "Startale Labs",
+                href: "https://portal.astar.network/astar-zkevm",
+              },
+              {
+                label: "Astar Japan Lab",
+                href: "https://portal.astar.network/astar-zkevm",
+              },
+              {
+                label: "Astar 2.0",
+                href: "https://portal.astar.network/astar-zkevm",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Use",
             items: [
               {
-                label: "Discord",
-                href: "https://discord.gg/astarnetwork",
+                label: "Portal",
+                href: "https://portal.astar.network/astar-zkevm",
               },
               {
-                label: "Twitter",
+                label: "dApp Staking",
+                href: "https://portal.astar.network/astar-zkevm",
+              },
+              {
+                label: "Ecosystem",
                 href: "https://twitter.com/AstarNetwork",
               },
             ],
           },
           {
-            title: "More",
+            title: "Developer",
             items: [
               {
-                label: "Blog",
-                to: "https://astar.network/blog",
+                label: "Start Building",
+                href: "https://astar.network/blog",
               },
               {
-                label: "GitHub",
+                label: "Docs",
+                to: "https://github.com/AstarNetwork",
+              },
+            ],
+          },
+          {
+            title: "Explore",
+            items: [
+              {
+                label: "Community",
+                href: "https://astar.network/blog",
+              },
+              {
+                label: "Blog",
+                href: "https://github.com/AstarNetwork",
+              },
+              {
+                label: "Community",
+                href: "https://astar.network/blog",
+              },
+              {
+                label: "Become our Agent",
+                href: "https://astar.network/blog",
+              },
+              {
+                label: "Discord Community",
+                href: "https://astar.network/blog",
+              },
+              {
+                label: "Astar Forum",
+                href: "https://astar.network/blog",
+              },
+            ],
+          },
+          {
+            title: "About",
+            items: [
+              {
+                label: "Brand Asset Kit",
+                href: "https://astar.network/blog",
+              },
+              {
+                label: "Careers",
+                href: "https://github.com/AstarNetwork",
+              },
+              {
+                label: "Contact Us",
+                href: "https://github.com/AstarNetwork",
+              },
+            ],
+          },
+          {
+            title: "Legal",
+            items: [
+              {
+                label: "Privacy Policy",
+                href: "https://astar.network/blog",
+              },
+              {
+                label: "Terms of Use",
                 href: "https://github.com/AstarNetwork",
               },
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Astar Developers Hub.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-        additionalLanguages: ["rust", "toml", "solidity"],
       },
       algolia: {
         // The application ID provided by Algolia

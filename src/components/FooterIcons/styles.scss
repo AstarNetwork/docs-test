@@ -1,0 +1,13 @@
+.icons_section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon_cover {
+  width: fit-content;
+  padding: 16px;
+}
