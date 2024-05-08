@@ -3,11 +3,19 @@ import "./styles.scss";
 export const FooterIcons = () => {
   return (
     <div className="icons_section">
-      <div className="icon_cover">{gh_icon}</div>
-      <div className="icon_cover">{x_icon}</div>
+      <a className="icon_cover" href="https://github.com/AstarNetwork">
+        {gh_icon}
+      </a>
+      <a className="icon_cover" href="https://twitter.com/AstarNetwork">
+        {x_icon}
+      </a>
       <div className="icon_cover">{tg_icon}</div>
-      <div className="icon_cover">{discord_icon}</div>
-      <div className="icon_cover">{youtube_icon}</div>
+      <a className="icon_cover" href="https://discord.com/invite/astarnetwork">
+        {discord_icon}
+      </a>
+      <a className="icon_cover" href="https://www.youtube.com/c/AstarNetwork">
+        {youtube_icon}
+      </a>
     </div>
   );
 };

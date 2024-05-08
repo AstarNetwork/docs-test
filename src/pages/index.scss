@@ -5,13 +5,13 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  // background: linear-gradient(
-  //   83.83deg,
-  //   #694ea4,
-  //   #1b6dc1 37.5%,
-  //   #1b6dc1 65.1%,
-  //   #2ea0c4
-  // );
+  background: linear-gradient(
+    83.83deg,
+    #694ea4,
+    #1b6dc1 37.5%,
+    #1b6dc1 65.1%,
+    #2ea0c4
+  );
   @media (min-width: $lg) {
     padding: 2rem;
   }
@@ -92,4 +92,31 @@
 
 .text--hero {
   color: white;
+}
+
+.landing-section {
+  padding-top: 76px;
+  @media (min-width: $lg) {
+    top: 124px;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 640px;
+  text-align: center;
+}
+
+.bg-image {
+  position: fixed;
+  top: 150px;
+  transform: rotate(-40deg);
+  z-index: -10;
 }

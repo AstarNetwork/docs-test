@@ -6,21 +6,17 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import "./index.scss";
 import { FooterIcons } from "../components/FooterIcons";
 import { useState, useEffect } from "react";
+import SearchBox from "../components/SearchBox";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className="hero hero--primary hero--banner">
-      <div className="container">
-        <h1 className="hero__title text--hero">{siteConfig.title}</h1>
-        <p className="hero__subtitle text--hero">{siteConfig.tagline}</p>
-        <div className="buttons">
-          {/* <Link className="button--start" to="/docs/getting-started">
-            <span>Get Started</span>
-            <i />
-          </Link> */}
-        </div>
+    <header className="landing-section">
+      <div className="title-section">
+        <h1>Welcome to Astar</h1>
+        <p>{siteConfig.tagline}</p>
       </div>
+      <SearchBox />
     </header>
   );
 }
@@ -32,6 +28,7 @@ export default function Home(): JSX.Element {
       title={`${siteConfig.title}`}
       description="Astar Network Official Documentation Portal - User Guides, Tutorials, and Tools for Developers."
     >
+      <img src="/img/background.svg" className="bg-image" />
       <HomepageHeader />
       <main>
         <HomepageFeatures />

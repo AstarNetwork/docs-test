@@ -65,6 +65,14 @@ $xxl: 1440px;
   gap: 80px;
 }
 
+h1 {
+  font-size: 72px;
+}
+
+p {
+  font-size: 18px;
+}
+
 .navbar__toggle {
   @media screen {
     display: none;
