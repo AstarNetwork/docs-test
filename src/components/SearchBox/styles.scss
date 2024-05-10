@@ -1,4 +1,7 @@
 .search-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   width: 1024px;
   border-radius: 12px;
   padding: 40px;
@@ -6,5 +9,31 @@
 }
 
 .button-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 30px;
+  border: 0;
   width: 100%;
+  padding: 16px 24px;
+  background-color: var(--box-background);
+}
+
+.search-label {
+  text-align: center;
+  line-height: normal;
+  border-radius: 3px;
+  padding: 4px 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.label-list {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  color: white;
+}
+
+.no-margin {
+  margin: 0;
 }

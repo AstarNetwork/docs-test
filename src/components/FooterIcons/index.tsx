@@ -9,7 +9,9 @@ export const FooterIcons = () => {
       <a className="icon_cover" href="https://twitter.com/AstarNetwork">
         {x_icon}
       </a>
-      <div className="icon_cover">{tg_icon}</div>
+      <a className="icon_cover" href="https://t.me/PlasmOfficial">
+        {tg_icon}
+      </a>
       <a className="icon_cover" href="https://discord.com/invite/astarnetwork">
         {discord_icon}
       </a>

@@ -5,6 +5,11 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
+  padding-top: 80px;
+  border: 1px;
+  border-color: #cbd5e1;
+  background-color: var(--box-background);
+  --ifm-link-color: black;
 }
 
 .icon_cover {
