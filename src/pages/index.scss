@@ -95,7 +95,7 @@
 }
 
 .landing-section {
-  padding-top: 76px;
+  padding: 76px 12px 0 12px;
   @media (min-width: $lg) {
     top: 124px;
   }
@@ -110,7 +110,7 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  width: 640px;
+  max-width: 640px;
   text-align: center;
 }
 
