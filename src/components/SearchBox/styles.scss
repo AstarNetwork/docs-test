@@ -38,12 +38,31 @@
 .label-list {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  @media (min-width: $sm) {
+    flex-direction: row;
+  }
   gap: 8px;
   color: white;
+}
+
+.labels {
+  display: grid;
+  grid-auto-flow: column;
+  @media (min-width: $sm) {
+    grid-template-columns: repeat(2);
+  }
+  gap: 8px;
 }
 
 .no-margin {
   margin: 0;
   white-space: nowrap;
+}
+
+.button-input {
+  padding: 0;
+  height: 60px;
+  border-radius: 30px;
+  border: 0;
 }
