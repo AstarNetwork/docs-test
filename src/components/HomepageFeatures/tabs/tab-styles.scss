@@ -1,0 +1,57 @@
+@import "../../../css/custom.scss";
+
+.feature-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (min-width: $md) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+  }
+}
+
+.feature-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  height: fit-content;
+  border-radius: 6px;
+  padding: 38px 24px;
+  gap: 20px;
+  background-color: #d6edff;
+}
+[data-theme="dark"] .feature-links {
+  background-color: rgb(#0075ff26, 0.15);
+}
+
+.links-description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.website-button {
+  padding: 12px 24px 12px 28px;
+  border-radius: 100px;
+  color: white;
+  border: 0;
+  background: linear-gradient(83.83deg, #0047ff, #00d4ff);
+}
+
+.tab-title {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+.tab-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.button-text {
+  color: white;
+}

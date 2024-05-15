@@ -1,7 +1,6 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
   width: 100%;
 }
 
@@ -29,7 +28,17 @@
   border-color: #334155;
 }
 
+.tab-button-pulldown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tab-button-base {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
   font-size: 18px;
   border-radius: 32px;
   border: 0;
@@ -44,4 +53,17 @@
 .tab-button-inactive {
   background-color: transparent;
   color: currentColor;
+}
+
+.pulldown-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 4px;
+  gap: 4px;
+}
+
+.pulldown-button-active {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.15);
 }

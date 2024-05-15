@@ -7,18 +7,21 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding-top: 35px;
+  padding: 35px 12px 0 12px;
   height: fit-content;
 }
 
 .container--front-page {
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  row-gap: 54px;
+  align-items: start;
+  gap: 48px;
   padding: 80px 48px;
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   background-color: rgb(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.15);
   @media (min-width: $lg) {
     grid-template-columns: auto auto;
     column-gap: 42px;
@@ -38,9 +41,11 @@
 }
 
 .box {
-  width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
   height: fit-content;
-  background-color: var(--box-background);
   padding: 0;
   transition: 0.3s;
   &:hover {
@@ -51,7 +56,6 @@
   // @media (min-width: $md) {
   //   width: 100%;
   //   max-width: 480px;
-  //   padding: 20px 38px;
   // }
   // @media (min-width: $lg) {
   //   max-width: 460px;
