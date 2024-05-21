@@ -3,6 +3,9 @@ import "../../css/homepage-features.scss";
 import "./styles.scss";
 import { AboutAstarGrid, AboutAstarLinks } from "./tabs/AboutAstar";
 import { useMedia } from "react-use";
+import { BuildersGrid, BuildersOnboard } from "./tabs/Builders";
+import { DappStakingGrid, DappStakingOnboard } from "./tabs/DappStaking";
+import { UserGrid, UserOnboard } from "./tabs/UserGuides";
 
 export type FeatureItem = {
   title: JSX.Element;
@@ -141,9 +144,24 @@ export default function HomepageFeatures(): JSX.Element {
           <AboutAstarLinks />
         </div>
       )}
-      {page === "builders" && <>builders</>}
-      {page === "dappStaking" && <>dappstaking</>}
-      {page === "usersGuides" && <>usersGuides</>}
+      {page === "builders" && (
+        <div className="container--front-page">
+          <BuildersGrid />
+          <BuildersOnboard />
+        </div>
+      )}
+      {page === "dappStaking" && (
+        <div className="container--front-page">
+          <DappStakingGrid />
+          <DappStakingOnboard />
+        </div>
+      )}
+      {page === "usersGuides" && (
+        <div className="container--front-page">
+          <UserGrid />
+          <UserOnboard />
+        </div>
+      )}
     </section>
   );
 }

@@ -35,8 +35,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         <Translate>
-          Jump right into building on Astar zkEVM the Layer 2 scaling solution
-          for Ethereum, powered by Polygon CDK.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         </Translate>
       </>
     ),
@@ -48,8 +47,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         <Translate>
-          Earn tokens for yourself and your dApp by staking tokens and
-          registering your dApp with Astar’s dApp Staking.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         </Translate>
       </>
     ),
@@ -61,8 +59,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         <Translate>
-          Explain how to run full nodes, collators, indexers, and everything you
-          need to know related to infrastructure.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         </Translate>
       </>
     ),
@@ -74,8 +71,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         <Translate>
-          Explains how XCM is used in Astar and how developers can use it to
-          interact with the rest of the Polkadot network.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         </Translate>
       </>
     ),
