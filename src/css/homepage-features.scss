@@ -13,9 +13,9 @@
 
 .container--front-page {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   gap: 48px;
   padding: 80px 48px;
   width: 100%;
@@ -23,6 +23,7 @@
   background-color: rgb(255, 255, 255, 0.5);
   box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.15);
   @media (min-width: $lg) {
+    flex-direction: row;
     grid-template-columns: auto auto;
     column-gap: 42px;
   }
@@ -45,6 +46,7 @@
   flex-direction: column;
   gap: 8px;
   width: 100%;
+  max-width: 311px;
   height: fit-content;
   padding: 0;
   transition: 0.3s;
@@ -122,7 +124,6 @@
   display: flex;
   align-items: center;
   column-gap: 14px;
-  margin-bottom: 22px;
 }
 
 .text--title {

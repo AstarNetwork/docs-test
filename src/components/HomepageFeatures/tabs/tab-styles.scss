@@ -4,9 +4,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 28px;
   @media (min-width: $md) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  @media (min-width: $xl) {
     row-gap: 40px;
     column-gap: 40px;
   }
@@ -17,6 +22,7 @@
   flex-direction: column;
   align-items: center;
   min-width: 300px;
+  max-width: 300px;
   height: fit-content;
   border-radius: 6px;
   padding: 38px 24px;

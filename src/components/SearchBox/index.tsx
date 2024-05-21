@@ -1,6 +1,7 @@
 import SearchBar from "@theme/SearchBar";
 import "./styles.scss";
 import { useState } from "react";
+import { DocSearch } from "@docsearch/react";
 
 const labels = ["zkEVM", "dApp Staking", "dApp Staking"];
 
@@ -18,9 +19,16 @@ function SearchLabelList() {
 }
 
 function InputBox() {
+  const [query, setQuery] = useState("");
   return (
     <div className="button-input">
-      <SearchBar />
+      <DocSearch
+        appId=""
+        apiKey=""
+        indexName=""
+        initialQuery={query}
+        
+      />
     </div>
   );
 }

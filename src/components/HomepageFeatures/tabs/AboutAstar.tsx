@@ -5,33 +5,31 @@ import "./tab-styles.scss";
 
 const FeatureList: FeatureItem[] = [
   {
-    title: <Translate>Learn About Astar Network</Translate>,
+    title: <Translate>About Astar Network</Translate>,
     link: "/docs/learn",
     iconClass: "docs",
     description: (
       <>
         <Translate>
-          Explains our foundations and provides comprehensive insights into the
-          inner workings of Astar network.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         </Translate>
       </>
     ),
   },
   {
-    title: <Translate>Build</Translate>,
+    title: <Translate>Astar Token</Translate>,
     link: "/docs/build/",
     iconClass: "wrench",
     description: (
       <>
         <Translate>
-          Find all the resources you need to start testing, deploying, and
-          interacting with smart contracts on Astar networks.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         </Translate>
       </>
     ),
   },
   {
-    title: <Translate>Build on Astar zkEVM</Translate>,
+    title: <Translate>Architecture</Translate>,
     link: "/docs/build/zkEVM",
     iconClass: "evm",
     description: (
@@ -44,7 +42,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: <Translate>dApp Staking</Translate>,
+    title: <Translate>Tokenomics 2.0</Translate>,
     link: "/docs/learn/dapp-staking/",
     iconClass: "staking",
     description: (
@@ -57,7 +55,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: <Translate>Run A Node</Translate>,
+    title: <Translate>Networks</Translate>,
     link: "/docs/build/nodes/",
     iconClass: "node",
     description: (
@@ -70,7 +68,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: <Translate>Learn Cross-Chain Message (XCM)</Translate>,
+    title: <Translate>Astar zkEVM</Translate>,
     link: "/docs/learn/interoperability/xcm/",
     iconClass: "broadcast",
     description: (
@@ -78,32 +76,6 @@ const FeatureList: FeatureItem[] = [
         <Translate>
           Explains how XCM is used in Astar and how developers can use it to
           interact with the rest of the Polkadot network.
-        </Translate>
-      </>
-    ),
-  },
-  {
-    title: <Translate>Integrate Toolings</Translate>,
-    link: "/docs/build/integrations/",
-    iconClass: "tool",
-    description: (
-      <>
-        <Translate>
-          Contains relevant information about the wallets, bridges, indexers,
-          and oracles that are integrated with the network.
-        </Translate>
-      </>
-    ),
-  },
-  {
-    title: <Translate>User Guides</Translate>,
-    link: "/docs/use/",
-    iconClass: "docs",
-    description: (
-      <>
-        <Translate>
-          Learn how to create different types of wallets, obtain tokens, and
-          manage your assets.
         </Translate>
       </>
     ),
