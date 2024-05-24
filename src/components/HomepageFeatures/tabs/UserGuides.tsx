@@ -81,17 +81,15 @@ export function UserOnboard() {
     <div className="feature-links">
       <div className="links-description">
         <div className="tab-title">
-          <Translate>Connecting you to web3</Translate>
+          <Translate>Astar Portal</Translate>
         </div>
         <div className="tab-text">
-          <Translate>
-            Creating opportunities for individuals to use web3 technology
-          </Translate>
+          <Translate>Multi-chain platform hub for asset management</Translate>
         </div>
       </div>
       <button className="website-button">
         <a href="https://astar.network/" className="button-text">
-          Astar website
+          Try it out!
         </a>
       </button>
     </div>

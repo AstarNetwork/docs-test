@@ -90,6 +90,10 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
+function BuildersArrow() {
+  return <img src="/img/arrow-right.svg" />;
+}
+
 export function BuildersGrid() {
   return (
     <div className="feature-grid">
@@ -102,22 +106,43 @@ export function BuildersGrid() {
 
 export function BuildersOnboard() {
   return (
-    <div className="feature-links">
-      <div className="links-description">
-        <div className="tab-title">
-          <Translate>Connecting you to web3</Translate>
+    <div className="builders-links">
+      <div className="builders-card">
+        <div>
+          <div className="tab-text">
+            <Translate>Need tokens for testing?</Translate>
+          </div>
+          <div className="tab-title">
+            <Translate>Faucet</Translate>
+          </div>
         </div>
-        <div className="tab-text">
-          <Translate>
-            Creating opportunities for individuals to use web3 technology
-          </Translate>
-        </div>
+        <BuildersArrow />
       </div>
-      <button className="website-button">
-        <a href="https://astar.network/" className="button-text">
-          Astar website
-        </a>
-      </button>
+      <div className="builders-card">
+        <div>
+          <div className="tab-text">
+            <Translate>Encountering issues?</Translate>
+          </div>
+          <div className="icon-and-title">
+            <img src="/img/discord.svg" />
+            <div className="tab-title">
+              <Translate>Support</Translate>
+            </div>
+          </div>
+        </div>
+        <BuildersArrow />
+      </div>
+      <div className="builders-card">
+        <div>
+          <div className="tab-text">
+            <Translate>Developer toolings</Translate>
+          </div>
+          <div className="tab-title">
+            <Translate>Check our Ecosystem</Translate>
+          </div>
+        </div>
+        <BuildersArrow />
+      </div>
     </div>
   );
 }

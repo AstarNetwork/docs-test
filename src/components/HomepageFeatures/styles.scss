@@ -28,6 +28,16 @@
   border-color: #334155;
 }
 
+.mobile-active-button {
+  background-color: white;
+  width: 232px;
+  padding: 20px 32px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.15);
+  position: absolute;
+  top: 0;
+  z-index: 20;
+}
+
 .tab-button-pulldown {
   display: flex;
   flex-direction: column;
@@ -38,8 +48,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 4px;
   font-size: 18px;
+  font-weight: 500;
   border-radius: 32px;
   border: 0;
   padding: 16px 32px 16px 28px;
@@ -58,9 +70,14 @@
 .pulldown-button-wrapper {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(#ffffff, 0.95);
   border-radius: 4px;
   gap: 4px;
+  padding-top: 35px;
+  width: 345px;
+  position: absolute;
+  top: 35px;
+  z-index: 10;
 }
 
 .pulldown-button-active {

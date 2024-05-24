@@ -71,10 +71,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Docs",
         logo: {
           alt: "Astar",
-          src: "img/astar-logo.svg",
+          src: "img/astar-header-light.svg",
+          srcDark: "img/astar-header-dark.svg",
         },
         items: [
           {

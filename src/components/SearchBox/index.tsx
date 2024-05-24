@@ -1,4 +1,3 @@
-import SearchBar from "@theme/SearchBar";
 import "./styles.scss";
 import { useState } from "react";
 import { DocSearch } from "@docsearch/react";

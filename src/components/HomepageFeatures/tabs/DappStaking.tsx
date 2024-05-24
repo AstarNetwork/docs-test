@@ -93,17 +93,17 @@ export function DappStakingOnboard() {
     <div className="feature-links">
       <div className="links-description">
         <div className="tab-title">
-          <Translate>Connecting you to web3</Translate>
+          <Translate>dApp Staking</Translate>
         </div>
         <div className="tab-text">
           <Translate>
-            Creating opportunities for individuals to use web3 technology
+            Incentivized program connecting devs to Astar community
           </Translate>
         </div>
       </div>
       <button className="website-button">
         <a href="https://astar.network/" className="button-text">
-          Astar website
+          Build & Earn
         </a>
       </button>
     </div>

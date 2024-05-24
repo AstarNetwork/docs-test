@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   min-width: 300px;
   max-width: 300px;
   height: fit-content;
@@ -30,6 +31,32 @@
   background-color: #d6edff;
 }
 [data-theme="dark"] .feature-links {
+  background-color: rgb(#0075ff26, 0.15);
+}
+
+.builders-links {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 300px;
+  gap: 10px;
+}
+
+.builders-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 24px;
+  border-radius: 6px;
+  background-color: #d6edff;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+  }
+}
+[data-theme="dark"] .builders-card {
   background-color: rgb(#0075ff26, 0.15);
 }
 
@@ -47,15 +74,30 @@
   background: linear-gradient(83.83deg, #0047ff, #00d4ff);
 }
 
+.website-button {
+  transition: all;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.icon-and-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
 .tab-title {
   font-weight: 600;
   font-size: 16px;
-  text-align: center;
 }
 
 .tab-text {
   font-size: 14px;
-  text-align: center;
+  color: #64748b;
 }
 
 .button-text {
